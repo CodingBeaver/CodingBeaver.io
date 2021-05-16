@@ -1,4 +1,4 @@
-
+  
   #container-main{
     position:relative;
     display:flex;
@@ -9,6 +9,7 @@
   }
   #blue-theme2{
       background-color:rgb(85, 205, 241);
+      position:relative;
   }
   #modul-background{
       opacity:0;
