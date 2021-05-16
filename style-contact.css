@@ -132,6 +132,9 @@
     outline: none;
     resize:none;
 }
+#contact-form .form-component textarea{
+    height:50px;
+}
 #contact-form .form-component label  {
     position:absolute;
     left:0;
