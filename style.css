@@ -132,7 +132,7 @@ body{
        background-repeat: no-repeat;
        background-attachment: fixed;
        background-position: center; 
-       background-size:cover;
+       background-size:100vw;
        overflow-x: hidden;
    }
    
@@ -309,6 +309,9 @@ body{
    @media only screen and (max-width: 880px) {
      .burger{
        display:block;
+     }
+     html{
+       overflow-x: hidden;
      }
      nav{
        position: absolute;
