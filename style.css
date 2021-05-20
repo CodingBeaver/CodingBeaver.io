@@ -1,5 +1,11 @@
+*{
+  padding:0;
+  margin:0;
+  
 
-
+}
+html{
+}
 
 body{
     padding:0;
@@ -125,6 +131,7 @@ body{
        background-attachment: fixed;
        background-position: center; 
        background-size: cover;
+       overflow-x: hidden;
    }
    
    #about,#location
@@ -313,6 +320,7 @@ body{
        width:50%;
        height:90.5vh;
        transform: translateX(100%);
+       overflow-x: hidden;
      }
      nav li{
        display: block;
@@ -324,7 +332,14 @@ body{
       padding: 0 50px;
      
      }
+
+    
+
+
    }
+
+
+
    .transition{
      transition: all 300ms ease-in;
    }

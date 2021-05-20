@@ -32,7 +32,7 @@ align-items:center;
           z-index:110;
           max-width:90%;
           max-height:90vh;
-        overflow:hidden;
+        
         border:30px solid rgba(0,0,0,0.6);
     -webkit-box-shadow: 5px 5px 30px 1px rgba(0,0,0,0.6);
   -moz-box-shadow: 5px 5px 30px 1px rgba(0,0,0,0.6);
@@ -120,13 +120,11 @@ align-items:center;
   }
   #background{
     position:absolute;
-    top:0;
-    bottom:0;
-    right:0;
-    left:0;
+    top: 0px;
     filter:blur(0px);
     width:100%;
     z-index:1;
+  
   }
   
   
